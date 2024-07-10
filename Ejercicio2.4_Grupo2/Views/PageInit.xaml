@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio2._4_Grupo2.Views.PageInit"
+             Title="PageInit"
+             Background="White">
+
+    <ScrollView>
+        <StackLayout Padding="20">
+            <Button 
+                Margin="0,10,0,0"
+                HeightRequest="50" 
+                WidthRequest="200" 
+                HorizontalOptions="Center"
+                BackgroundColor="#2b0098"
+                TextColor="White"
+                FontAttributes="Bold"
+                Text="Grabar Video" 
+                Clicked="OnRecordVideoButtonClicked"/>
+
+            <Button 
+                Margin="0,10,0,0"
+                HeightRequest="50" 
+                WidthRequest="200" 
+                HorizontalOptions="Center"
+                BackgroundColor="#2b0098"
+                TextColor="White"
+                FontAttributes="Bold"
+                Text="Reproducir Video" 
+                Clicked="OnPlayVideoButtonClicked"/>
+
+            <Button 
+                Margin="0,10,0,0"
+                HeightRequest="50" 
+                WidthRequest="200" 
+                HorizontalOptions="Center"
+                BackgroundColor="#2b0098"
+                TextColor="White"
+                FontAttributes="Bold"
+                Text="Descargar Video" 
+                Clicked="OnDownloadVideoButtonClicked"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
